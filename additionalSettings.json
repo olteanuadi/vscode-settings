@@ -1,5 +1,5 @@
 {
-    "_comment": "Workflow",
+    // Workflow
     "editor.quickSuggestions":{
         "other": "on",
         "comments": "off",
@@ -10,44 +10,50 @@
     "editor.suggestOnTriggerCharacters": true,
     "editor.acceptSuggestionOnEnter": "off",
 
-    "_comment0": "Editor font appearance",
+    // Editor font appearance
     "editor.fontSize": 20,
     "editor.fontFamily": "JetBrains Mono Regular",
     "editor.fontLigatures": true,
     "editor.lineHeight": 27,
 
 
-    "_comment1": "Editor color customizations",
+    // Editor color customizations
     "workbench.colorTheme": "Atom One Dark",
     "workbench.colorCustomizations": {
         "[Atom One Dark]": {
-
-            "_comment0": "Editor",
+            // Editor
+            "editor.background": "#131519",
             "editorLineNumber.activeForeground": "#628baf",
             "editorLineNumber.foreground": "#3c4049",
-            "editor.background": "#131519",
             "editorIndentGuide.background": "#282b31",
-
-            "_comment1": "Sidebar",
+            // Sidebar
             "sideBar.background": "#0e0f13",
-            "sideBar.foreground": "#abb2bb",
+            "sideBar.foreground": "#8f9197",
             "sideBarSectionHeader.background": "#131519",
-            
-            "_comment2": "Tabs",
+            "list.activeSelectionBackground": "#131519",
+            "list.inactiveSelectionBackground": "#131519",
+            "tree.indentGuidesStroke": "#628baf",  
+            // Tabs
             "tab.activeBackground": "#22262e",
             "tab.inactiveBackground": "#131519",
             "tab.border": "#0b0c0f",
-
-            "_comment3": "Activity and title bar",
+            "editorGroupHeader.tabsBackground": "#131519",
+            // Activity, title and status bar
             "activityBar.background": "#0b0c0f",
             "titleBar.activeBackground": "#0b0c0f",
-
-            "_comment4": "Miscellaneous",
-            "breadcrumb.foreground": "#7d899b"
+            "statusBar.background": "#0b0c0f",
+            // Panel
+            "panel.border": "#282b31",
+            "panelTitle.activeBorder": "#477bff",
+            // Miscellaneous
+            "widget.shadow": "#263764",
+            "breadcrumb.foreground": "#464b55",
+            "badge.background": "#477bff",
+            "statusBarItem.remoteBackground": "#a660e0"
         }
     },
 
-    "_comment2": "Keywords color customizations",
+    // Keywords color customizations
     "editor.tokenColorCustomizations": {
         "[Atom One Dark]": {
             "strings": "#9686cc",
@@ -58,7 +64,7 @@
         "textMateRules": [
             {
                 "scope": [
-                    "variable.language.special.self.python",
+                    "variable.language.special.self.python"
                 ],
                 "settings": {
                     "foreground": "#477bff",
@@ -71,15 +77,12 @@
                     "storage.type.function.python"
                 ],
                 "settings": {
+                    // "foreground": "#0509fc",
                     "foreground": "#de71d7",
                     "fontStyle": "bold"
                 }
             },
-
-            
-            {
-                "_comment": "Objects (initialization)",
-
+            {   // Objects (initialization)
                 "scope": [
                     "storage.type.java"
                 ],
@@ -87,10 +90,7 @@
                     "foreground": "#477bff"
                 }
             },
- 
-            {
-                "_comment": "Primitives, primitive arrays and 'this' keyword",
-
+            {   // Primitives, primitive arrays and 'this' keyword
                 "scope": [
                     "storage.type.primitive.java",
                     "storage.type.object.array.java",
@@ -101,10 +101,7 @@
                     "foreground": "#a660e0"
                 }
             },
-
-            {
-                "_comment": "Class name (definition)",
-
+            {   // Class name (definition)
                 "scope": [
                     "entity.name.type.class.java"
                 ],
@@ -113,15 +110,12 @@
                     "fontStyle": "bold"
                 }
             },
-
-            {
-                "_comment": "Quatation marks and strings",
-
+            {   // Quatation marks and strings
                 "scope": [
-                " punctuation.definition.string.begin.java",
-                "punctuation.definition.string.end.java",
-                "punctuation.definition.string.begin.json",
-                "punctuation.definition.string.end.json"
+                   "punctuation.definition.string.begin.java",
+                   "punctuation.definition.string.end.java",
+                   "punctuation.definition.string.begin.json",
+                   "punctuation.definition.string.end.json"
                 ],
                 "settings": {
                     "foreground": "#806ac9"
