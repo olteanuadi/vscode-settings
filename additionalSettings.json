@@ -1,0 +1,132 @@
+{
+    "_comment": "Workflow",
+    "editor.quickSuggestions":{
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.quickSuggestionsDelay": 90,
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "off",
+
+    "_comment0": "Editor font appearance",
+    "editor.fontSize": 20,
+    "editor.fontFamily": "JetBrains Mono Regular",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 27,
+
+
+    "_comment1": "Editor color customizations",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorCustomizations": {
+        "[Atom One Dark]": {
+
+            "_comment0": "Editor",
+            "editorLineNumber.activeForeground": "#628baf",
+            "editorLineNumber.foreground": "#3c4049",
+            "editor.background": "#131519",
+            "editorIndentGuide.background": "#282b31",
+
+            "_comment1": "Sidebar",
+            "sideBar.background": "#0e0f13",
+            "sideBar.foreground": "#abb2bb",
+            "sideBarSectionHeader.background": "#131519",
+            
+            "_comment2": "Tabs",
+            "tab.activeBackground": "#22262e",
+            "tab.inactiveBackground": "#131519",
+            "tab.border": "#0b0c0f",
+
+            "_comment3": "Activity and title bar",
+            "activityBar.background": "#0b0c0f",
+            "titleBar.activeBackground": "#0b0c0f",
+
+            "_comment4": "Miscellaneous",
+            "breadcrumb.foreground": "#7d899b"
+        }
+    },
+
+    "_comment2": "Keywords color customizations",
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            "strings": "#9686cc",
+            "numbers": "#abb2bb",
+            "keywords": "#d868a6",
+            "variables": "#abb2bb"
+        },
+        "textMateRules": [
+            {
+                "scope": [
+                    "variable.language.special.self.python",
+                ],
+                "settings": {
+                    "foreground": "#477bff",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.class.python",
+                    "storage.type.function.python"
+                ],
+                "settings": {
+                    "foreground": "#de71d7",
+                    "fontStyle": "bold"
+                }
+            },
+
+            
+            {
+                "_comment": "Objects (initialization)",
+
+                "scope": [
+                    "storage.type.java"
+                ],
+                "settings": {
+                    "foreground": "#477bff"
+                }
+            },
+ 
+            {
+                "_comment": "Primitives, primitive arrays and 'this' keyword",
+
+                "scope": [
+                    "storage.type.primitive.java",
+                    "storage.type.object.array.java",
+                    "variable.language.this.java"
+                    
+                ],
+                "settings": {
+                    "foreground": "#a660e0"
+                }
+            },
+
+            {
+                "_comment": "Class name (definition)",
+
+                "scope": [
+                    "entity.name.type.class.java"
+                ],
+                "settings": {
+                    "foreground": "#e5ae49",
+                    "fontStyle": "bold"
+                }
+            },
+
+            {
+                "_comment": "Quatation marks and strings",
+
+                "scope": [
+                " punctuation.definition.string.begin.java",
+                "punctuation.definition.string.end.java",
+                "punctuation.definition.string.begin.json",
+                "punctuation.definition.string.end.json"
+                ],
+                "settings": {
+                    "foreground": "#806ac9"
+                }
+            }
+        ]
+    }
+}
